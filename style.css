@@ -33,6 +33,8 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    cursor: grab;
+    
 }
 
 .hole {
@@ -64,6 +66,7 @@ h1 {
 }
 
 .hole.up .mole{
+    cursor: grabbing;
     top:0%;              /* triggered when we add this class, changes the top value of mole class from 100 to 0 */
 }
 
